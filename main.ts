@@ -2,39 +2,39 @@ let list: number[][] = []
 basic.forever(function () {
     list = [
     [
-    1,
-    1,
-    0,
-    1,
-    1
+    randint(0, 1),
+    randint(0, 1),
+    randint(0, 1),
+    randint(0, 1),
+    randint(0, 1)
     ],
     [
-    1,
-    1,
-    0,
-    1,
-    1
+    randint(0, 1),
+    randint(0, 1),
+    randint(0, 1),
+    randint(0, 1),
+    randint(0, 1)
     ],
     [
-    0,
-    0,
-    0,
-    0,
-    0
+    randint(0, 1),
+    randint(0, 1),
+    randint(0, 1),
+    randint(0, 1),
+    randint(0, 1)
     ],
     [
-    1,
-    0,
-    0,
-    0,
-    1
+    randint(0, 1),
+    randint(0, 1),
+    randint(0, 1),
+    randint(0, 1),
+    randint(0, 1)
     ],
     [
-    0,
-    1,
-    1,
-    1,
-    0
+    randint(0, 1),
+    randint(0, 1),
+    randint(0, 1),
+    randint(0, 1),
+    randint(0, 1)
     ]
     ]
     for (let y = 0; y <= 4; y++) {
@@ -46,4 +46,5 @@ basic.forever(function () {
             }
         }
     }
+    basic.pause(500)
 })
